@@ -14,5 +14,5 @@ function SetGradient() {
     css.textContent = Body.style.background + ";" ;
 }
 
-// Color1.addEventListener("input" , SetGradient);
-// Color2.addEventListener("input" , SetGradient);
+Color1.addEventListener("input" , SetGradient);
+Color2.addEventListener("input" , SetGradient);
